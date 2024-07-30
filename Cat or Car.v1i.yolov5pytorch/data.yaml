@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Car', 'Cat']
+
+roboflow:
+  workspace: workspace-1-5zbry
+  project: cat-or-car
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/workspace-1-5zbry/cat-or-car/dataset/1
